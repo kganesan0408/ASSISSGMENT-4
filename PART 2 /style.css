@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.full-img {
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+
+.displayed-img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.thumb-bar img {
+  width: 20%;
+  float: left;
+}
